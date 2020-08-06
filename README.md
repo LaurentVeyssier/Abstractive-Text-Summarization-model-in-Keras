@@ -9,7 +9,7 @@ Concepts were fully described and developped in several of his posts, providing 
 
 The training was performed using Inshorts Dataset comprised of over 55k news articles from various sources (300 to 500 words long) and their summary headlines (less than 100 words). The dataset is available [here](https://www.kaggle.com/shashichander009/inshorts-news-data).
 
-The model uses abstractive summarizing through deep RNN encoder-decoder network architecture with attention mechanism.
+The model uses abstractive summarizing through deep RNN encoder-decoder network architecture with attention mechanism. New sentences are generated which might not be present in the original text.
 
 The model is capable of generating a "headline" summary (up to 75 words) of a news article from scratch.
 
