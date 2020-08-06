@@ -11,7 +11,9 @@ The training was performed using Inshorts Dataset comprised of over 55k news art
 
 The model uses abstractive summarizing through deep RNN encoder-decoder network architecture with attention mechanism.
 
-The model is capable of generating a "headline" summary (up to 75 words) of a news article from scratch. When extracting summarizing methods summarize articles by selecting a subset of sentences that retain the most important points (see an example in one of my other repos), abstractive summarizing methods interpret and examine the text using advanced natural language techniques in order to generate a new shorter text that conveys the most critical information from the original text.
+The model is capable of generating a "headline" summary (up to 75 words) of a news article from scratch.
+
+Where extracting summarizing methods summarize articles by selecting a subset of sentences that retain the most important points (see an example in one of my other repos), abstractive summarizing methods interpret and examine the text using advanced natural language techniques in order to generate a new shorter text that conveys the most critical information from the original text.
 
 ## Results
 The model uses Keras and was trained over 40 epochs on Google colab with GPU.
